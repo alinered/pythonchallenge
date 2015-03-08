@@ -10,7 +10,8 @@ def trans():
     s = """
         g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp. bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle. sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj.
         """
-    return s.translate(transmap)
+    ss = "map"
+    return ss.translate(transmap)
 
 if __name__ == '__main__':
     print trans()
